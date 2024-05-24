@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250958979652",
+    "project_id": "notes-application-25d1b",
+    "storage_bucket": "notes-application-25d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250958979652:android:932a2e5554d88f83175211",
+        "android_client_info": {
+          "package_name": "com.sandesh.notesapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD20JNzJYjljT4TTeJnPMpDoU2BUSS7vbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

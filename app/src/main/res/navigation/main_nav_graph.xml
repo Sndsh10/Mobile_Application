@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/displayNotesFragment">
+
+    <fragment
+        android:id="@+id/displayNotesFragment"
+        android:name="com.sandesh.notesapplication.fragments.DisplayNotesFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_display_notes" />
+
+    <fragment
+        android:id="@+id/createNotesFragment"
+        android:name="com.sandesh.notesapplication.fragments.CreateNotesFragment"
+        android:label="Create note"
+        tools:layout="@layout/fragment_create_notes" />
+
+    <fragment
+        android:id="@+id/editNotesFragment"
+        android:name="com.sandesh.notesapplication.fragments.EditNotesFragment"
+        android:label="Edit note"
+        tools:layout="@layout/fragment_edit_notes" />
+
+    <fragment
+        android:id="@+id/deleteNotesFragment"
+        android:name="com.sandesh.notesapplication.fragments.DeleteNotesFragment"
+        android:label="Delete note"
+        tools:layout="@layout/fragment_delete_notes" />
+
+    <!--<fragment
+        android:id="@+id/eateryFragment"
+        android:name="com.repomean.ktm_eats.temporaryFragments.EateryFragment"
+        android:label="Eatery"
+        tools:layout="@layout/fragment_routine" />
+
+    <fragment
+        android:id="@+id/reservationsFragment"
+        android:name="com.repomean.ktm_eats.temporaryFragments.ReservationFragment"
+        android:label="Reservations"
+        tools:layout="@layout/fragment_reminder" />
+
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.repomean.ktm_eats.temporaryFragments.EventsFragment"
+        android:label="Events"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
+        android:id="@+id/babFragment"
+        android:name="com.repomean.ktm_eats.temporaryFragments.BABFragment"
+        android:label="Bed &amp; Breakfast"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.repomean.ktm_eats.temporaryFragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/addRoutineFragment"
+        android:name="com.repomean.ktm_eats.fragments.routineFragments.AddRoutine"
+        android:label="Add Routine"
+        tools:layout="@layout/fragment_add_routine" />
+
+    <fragment
+        android:id="@+id/addReminderFragment"
+        android:name="com.repomean.ktm_eats.fragments.reminderFragments.AddReminder"
+        android:label="Add Reminder"
+        tools:layout="@layout/fragment_add_reminder" />-->
+
+
+
+    <!--<fragment
+        android:id="@+id/localFragment"
+        android:name="com.repomean.messagetier.activityFragments.LocalFragment"
+        android:label="Local" />
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.repomean.messagetier.activityFragments.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/remoteFragment"
+        android:name="com.repomean.messagetier.activityFragments.RemoteFragment"
+        android:label="Remote" />-->
+
+</navigation>

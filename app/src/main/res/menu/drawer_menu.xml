@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/listNotesFragmentMenuItem"
+            android:title="Notes" />
+    </group>
+
+    <!--<group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/createNotesFragmentMenuItem"
+            android:title="Create notes" />
+    </group>
+    <group
+        android:id="@+id/grp_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/editNotesFragmentMenuItem"
+            android:title="Edit notes" />
+    </group>
+    <group
+        android:id="@+id/grp_4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/deleteNotesFragmentMenuItem"
+            android:title="Delete notes" />
+    </group>-->
+    <group
+        android:id="@+id/grp_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/logoutMenuItem"
+            android:title="Log out" />
+    </group>
+</menu>
